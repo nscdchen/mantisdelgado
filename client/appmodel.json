@@ -1,4 +1,19 @@
 {
+  "1": {
+    "type": "object",
+    "comment": "ViewIssue",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "Status": {
+        "type": "string"
+      },
+      "Summary": {
+        "type": "string"
+      }
+    }
+  },
   "login": {
     "type": "object",
     "comment": "Login",
