@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "185813ab",
   "uiCommonVersion": "5.2.1",
-  "creatorId": "nscdchen"
+  "creatorId": "nscdchen",
+  "id": "mantisdelgado",
+  "previewImageURL": "/previews/185813ab-mantisdelgado/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/nscdchen/mantisdelgado",
+  "creatorName": "Delgado Chen",
+  "sdks": []
 }
