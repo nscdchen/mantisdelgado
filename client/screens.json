@@ -32,8 +32,7 @@
       "id": "blank1",
       "name": "BLANK1",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "1"
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
