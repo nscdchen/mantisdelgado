@@ -47,14 +47,22 @@
     "type": "object",
     "comment": "1",
     "properties": {
-      "id": {
-        "type": "string"
-      },
-      "Status": {
-        "type": "string"
-      },
-      "summary": {
-        "type": "string"
+      "test": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "summary": {
+              "type": "string"
+            }
+          }
+        }
       }
     }
   }
