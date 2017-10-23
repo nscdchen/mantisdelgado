@@ -79,13 +79,22 @@
           "type": "object",
           "properties": {
             "ID": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "STATUS": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "SUMMARY": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             }
           }
         },
