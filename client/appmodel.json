@@ -68,5 +68,28 @@
         }
       }
     }
+  },
+  "viewissues": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "viewissues": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "ID": {
+              "type": "string"
+            },
+            "STATUS": {
+              "type": "string"
+            },
+            "SUMMARY": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
   }
 }
