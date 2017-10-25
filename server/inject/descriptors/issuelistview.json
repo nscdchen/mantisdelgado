@@ -61,10 +61,11 @@
             "selectIndex": 9,
             "control": "property.innerText"
           },
-          "reportissue": {
+          "gotoreportissue": {
             "type": "action",
             "selector": "a[href='/mantisbt/bug_report_page.php']",
-            "control": "action.link"
+            "control": "action.link",
+            "selectContains": "Report Issue"
           }
         }
       },
