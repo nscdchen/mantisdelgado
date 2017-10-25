@@ -156,5 +156,14 @@
         }
       }
     }
+  },
+  "issuecategory": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "category": {
+        "type": "select"
+      }
+    }
   }
 }
