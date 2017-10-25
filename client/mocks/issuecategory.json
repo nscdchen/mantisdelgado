@@ -13,6 +13,10 @@
         "label": "Project2",
         "value": "3"
       }
-    ]
+    ],
+    "selected": {
+      "label": "Medical",
+      "value": "1"
+    }
   }
 }
