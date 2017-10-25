@@ -3,9 +3,9 @@
   "properties": {
     "ismyssie": {
       "type": "identifier",
-      "selector": ".form-title",
       "control": "exists",
-      "selectContains": "login"
+      "selector": ".subtle",
+      "selectContains": "Assigned to Me"
     },
     "viewissuelink": {
       "type": "action",
