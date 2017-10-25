@@ -4,8 +4,7 @@
   "properties": {
     "issuelist": {
       "type": "select",
-      "selector": "[name=\"bug_arr[]\"]",
-      "control": "checkbox"
+      "selector": "#buglist tbody tr[bgcolor]"
     }
   },
   "connect": []
