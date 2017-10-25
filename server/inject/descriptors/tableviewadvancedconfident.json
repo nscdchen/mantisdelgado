@@ -43,8 +43,9 @@
     },
     "isissuelist": {
       "type": "identifier",
-      "selector": "[name=\"bug_arr[]\"]",
-      "control": "checkbox"
+      "selector": ".form-title",
+      "control": "exists",
+      "selectContains": "Viewing Issues"
     }
   },
   "connect": []
