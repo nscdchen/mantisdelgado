@@ -10,7 +10,7 @@
     "isreportissuepage": {
       "type": "identifier",
       "control": "action.link",
-      "selector": "#text",
+      "selector": ".form-title",
       "selectContains": "Enter Report Details"
     }
   },
