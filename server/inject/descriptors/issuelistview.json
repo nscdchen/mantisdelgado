@@ -68,11 +68,6 @@
       },
       "selectorAll": "#buglist tbody tr[bgcolor]"
     },
-    "isissuelisview": {
-      "type": "action",
-      "selector": "a",
-      "control": "action.link"
-    },
     "isissuelistview": {
       "type": "identifier",
       "selector": ".floatleft",
