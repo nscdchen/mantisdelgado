@@ -64,7 +64,7 @@
           "reportissue": {
             "type": "action",
             "selector": "a[href='/mantisbt/bug_report_page.php']",
-            "control": "select"
+            "control": "action.link"
           }
         }
       },
