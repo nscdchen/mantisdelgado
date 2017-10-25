@@ -16,7 +16,9 @@
   },
   "connect": [
     {
-      "match": [],
+      "match": [
+        "isreportissuepage"
+      ],
       "screens": [
         "reportissue"
       ]
