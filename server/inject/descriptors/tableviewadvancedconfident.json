@@ -10,7 +10,9 @@
         "properties": {
           "id": {
             "type": "string",
-            "control": "checkbox"
+            "control": "property.innerText",
+            "selector": "td",
+            "selectIndex": 3
           },
           "summary": {
             "type": "string",
