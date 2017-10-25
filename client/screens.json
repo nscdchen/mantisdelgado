@@ -41,6 +41,13 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "issuecategory"
+    },
+    {
+      "id": "issuelistview",
+      "name": "issuelistview",
+      "sourceScreenId": "app.tableviewadvanced.tableviewadvancedconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "issuelistview"
     }
   ],
   "sourceAppId": "_blank",
