@@ -16,8 +16,9 @@
           },
           "summary": {
             "type": "string",
-            "selector": "[name=\"bug_arr[]\"]",
-            "control": "checkbox"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 10
           },
           "severity": {
             "type": "string",
