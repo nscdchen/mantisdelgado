@@ -2,72 +2,10 @@
   "type": "object",
   "comment": "issueslist",
   "properties": {
-    "issueslist": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            },
-            "selector": "td",
-            "selectIndex": 3,
-            "control": "property.innerText"
-          },
-          "summary": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            },
-            "selector": "td",
-            "selectIndex": 10,
-            "control": "property.innerText"
-          },
-          "status": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            },
-            "selectIndex": 10,
-            "selector": "td",
-            "control": "property.innerText"
-          },
-          "severity": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            },
-            "selector": "td",
-            "selectIndex": 7,
-            "control": "property.innerText"
-          },
-          "assignedto": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            },
-            "selector": "td",
-            "selectIndex": 8,
-            "control": "property.innerText"
-          },
-          "updated": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            },
-            "selector": "td",
-            "selectIndex": 9,
-            "control": "property.innerText"
-          }
-        }
-      },
-      "update": {
-        "type": "none"
-      },
-      "selectorAll": "#buglist tbody tr[bgcolor]",
-      "comment": "issuelist"
+    "issuelist": {
+      "type": "select",
+      "selector": "[name=\"bug_arr[]\"]",
+      "control": "checkbox"
     }
   },
   "connect": []
