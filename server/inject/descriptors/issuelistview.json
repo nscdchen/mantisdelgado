@@ -62,7 +62,7 @@
             "control": "property.innerText"
           },
           "reportissue": {
-            "type": "select",
+            "type": "action",
             "selector": "[name=\"category_id\"]",
             "control": "select"
           }
