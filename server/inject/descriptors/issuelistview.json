@@ -79,6 +79,12 @@
       "selector": "a[href='/mantisbt/bug_report_page.php']",
       "control": "action.link",
       "selectContains": "Report issue"
+    },
+    "submitreport": {
+      "type": "action",
+      "selector": ".button",
+      "control": "action.button",
+      "selectContains": "Submit Report"
     }
   },
   "connect": [
