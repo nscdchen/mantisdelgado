@@ -6,6 +6,12 @@
       "selector": ".form-title",
       "control": "exists",
       "selectContains": "login"
+    },
+    "viewissuelink": {
+      "type": "action",
+      "selector": "a[href='/mantisbt/view_all_bug_page.php']",
+      "control": "action.link",
+      "selectContains": "View Issues"
     }
   },
   "connect": []
