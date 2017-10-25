@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "category": {
+      "type": "select",
+      "selector": "option",
+      "control": "property.innerText"
+    }
+  },
+  "connect": []
+}
