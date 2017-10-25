@@ -32,8 +32,7 @@
       "id": "reportissue",
       "name": "reportissue",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "issuecategory"
+      "sourceAppId": "_blank"
     },
     {
       "id": "issuelistview",

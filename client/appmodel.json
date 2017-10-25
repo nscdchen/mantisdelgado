@@ -69,15 +69,6 @@
       }
     }
   },
-  "issuecategory": {
-    "type": "object",
-    "comment": "",
-    "properties": {
-      "category": {
-        "type": "select"
-      }
-    }
-  },
   "issuelistview": {
     "type": "object",
     "comment": "issueslist",
@@ -128,6 +119,15 @@
         "update": {
           "type": "none"
         }
+      }
+    }
+  },
+  "reportissue": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "category": {
+        "type": "select"
       }
     }
   }
