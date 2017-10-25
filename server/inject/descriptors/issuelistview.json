@@ -60,6 +60,11 @@
             "selector": "td",
             "selectIndex": 9,
             "control": "property.innerText"
+          },
+          "reportissue": {
+            "type": "select",
+            "selector": "[name=\"category_id\"]",
+            "control": "select"
           }
         }
       },
