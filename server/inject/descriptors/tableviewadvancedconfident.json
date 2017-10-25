@@ -19,13 +19,15 @@
           },
           "severity": {
             "type": "string",
-            "selector": "[name=\"bug_arr[]\"]",
-            "control": "checkbox"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 7
           },
           "assignedto": {
             "type": "string",
-            "selector": "[name=\"bug_arr[]\"]",
-            "control": "checkbox"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 8
           },
           "updated": {
             "type": "string",
