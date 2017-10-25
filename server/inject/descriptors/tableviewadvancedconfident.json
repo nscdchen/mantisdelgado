@@ -3,8 +3,12 @@
   "comment": "issueslist",
   "properties": {
     "issuelist": {
-      "type": "select",
-      "selector": "#buglist tbody tr[bgcolor]"
+      "type": "array",
+      "selectorAll": "#buglist tbody tr[bgcolor]",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": []
