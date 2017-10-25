@@ -40,6 +40,11 @@
           }
         }
       }
+    },
+    "isissuelist": {
+      "type": "identifier",
+      "selector": "[name=\"bug_arr[]\"]",
+      "control": "checkbox"
     }
   },
   "connect": []
