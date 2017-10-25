@@ -69,41 +69,6 @@
       }
     }
   },
-  "viewissues": {
-    "type": "object",
-    "comment": "",
-    "properties": {
-      "viewissues": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "ID": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "STATUS": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "SUMMARY": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            }
-          }
-        },
-        "update": {
-          "type": "none"
-        }
-      }
-    }
-  },
   "tableviewadvancedconfident": {
     "type": "object",
     "comment": "issueslist",
