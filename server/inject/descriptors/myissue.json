@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "ismyssie": {
+      "type": "identifier",
+      "selector": ".form-title",
+      "control": "exists",
+      "selectContains": "login"
+    }
+  },
+  "connect": []
+}
