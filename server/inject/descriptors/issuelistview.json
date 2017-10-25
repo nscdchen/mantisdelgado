@@ -73,6 +73,11 @@
       "selector": ".floatleft",
       "control": "exists",
       "selectContains": "Viewing Issues"
+    },
+    "gotoreportissue": {
+      "type": "action",
+      "selector": "a",
+      "control": "action.link"
     }
   },
   "connect": [
