@@ -4,7 +4,7 @@
   "properties": {
     "category": {
       "type": "select",
-      "selector": "option",
+      "selector": "[name=\"category_id\"]",
       "control": "property.innerText"
     }
   },
