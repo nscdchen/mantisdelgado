@@ -7,7 +7,33 @@
       "selectorAll": "#buglist tbody tr[bgcolor]",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "id": {
+            "type": "select",
+            "selector": "[name=\"bug_arr[]\"]",
+            "control": "checkbox"
+          },
+          "summary": {
+            "type": "select",
+            "selector": "[name=\"bug_arr[]\"]",
+            "control": "checkbox"
+          },
+          "severity": {
+            "type": "select",
+            "selector": "[name=\"bug_arr[]\"]",
+            "control": "checkbox"
+          },
+          "assignedto": {
+            "type": "select",
+            "selector": "[name=\"bug_arr[]\"]",
+            "control": "checkbox"
+          },
+          "updated": {
+            "type": "select",
+            "selector": "[name=\"bug_arr[]\"]",
+            "control": "checkbox"
+          }
+        }
       }
     }
   },
