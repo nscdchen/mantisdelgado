@@ -6,7 +6,20 @@
       "type": "select",
       "selector": "[name=\"category_id\"]",
       "control": "select"
+    },
+    "isreportissuepage": {
+      "type": "identifier",
+      "control": "action.link",
+      "selector": "#text",
+      "selectContains": "Enter Report Details"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "reportissue"
+      ]
+    }
+  ]
 }
