@@ -29,7 +29,10 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selectIndex": 8,
+            "selector": "td",
+            "control": "property.innerText"
           },
           "severity": {
             "type": "string",
